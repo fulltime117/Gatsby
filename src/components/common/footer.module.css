@@ -1,0 +1,19 @@
+.footer_body{
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.footer_body p{
+    margin-bottom: 0;
+}
+
+.footer_right{
+    display: flex;
+}
+
+.auther_part{
+    margin-left: 2.5rem;
+}

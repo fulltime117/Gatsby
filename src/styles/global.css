@@ -1,0 +1,12 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+button{
+    outline: none !important;
+}

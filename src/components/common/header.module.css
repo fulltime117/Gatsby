@@ -1,0 +1,222 @@
+.nav{
+    width: 100%;
+    z-index: 1000;
+    font-family: Roboto, -apple-syste m, "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+}
+
+.nav_container{
+    max-width: 80rem;
+    /* padding: 0px 3rem; */
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav_content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(25, 28, 31);
+}
+.nav_menu{    
+    display: flex;
+    align-items: center;
+}
+
+.pb{
+    text-transform: uppercase;
+    margin-left: 2.5rem;
+}
+.pb_personal{
+    font-size: 0.9rem;
+    margin-left: 25px;
+    color: rgb(25, 28, 31);
+}
+
+.pb_business{
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+    color: rgb(139, 149, 158);
+}
+.papch{
+    display:flex;
+}
+.papch span{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+/* .papchhover{
+     color: rgb(25, 28, 31);
+} */
+.papch_price{
+    font-size: 0.9rem;
+    color: white !important;
+    font-weight: bold;
+    /* color: rgb(139, 149, 158); */
+}
+
+.papch_account{
+    margin-left: 3rem;
+    font-size: 0.9rem;
+    color: white !important;
+    font-weight: bold;
+    /* color: rgb(139, 149, 158); */
+}
+
+.app_btn{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #2DD7A6 !important;
+    box-shadow: 0px 2.76726px 2.21381px rgba(65, 227, 181, 0.04), 0px 6.6501px 5.32008px rgba(65, 227, 181, 0.05), 0px 12.5216px 10.0172px rgba(65, 227, 181, 0.07), 0px 22.3363px 17.869px rgba(65, 227, 181, 0.08), 0px 41.7776px 33.4221px rgba(65, 227, 181, 0.1), 0px 100px 80px rgba(65, 227, 181, 0.14), inset 0px -2px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    color: rgb(2, 2, 2) !important;
+    text-transform: none !important;
+    padding: 16px 24px  !important;
+    font-weight: bold !important;
+    margin-left: 16px !important;
+}
+
+.contact_btn{
+    background:transparent !important;
+    padding: 16px 24px  !important;
+    color: white !important;
+    border-radius: 5px !important;
+    border: 2px solid white !important;
+}
+
+.btn{
+    margin-left: 18rem;
+}
+.account_list,.company_list,.help_list,.prodt_list{
+    position: absolute;
+    margin-left:-20px;
+    padding-top:10px;
+    z-index:2000;
+    list-style-type: none;
+    box-shadow: 0 15px 45px -5px rgba(7, 10, 25, 0.25);
+    -webkit-filter: brightness(1.07);
+    filter: brightness(1.07);
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgb(255, 255, 255);
+}
+.prodt_list{
+    position: absolute;
+    margin-left:-80px;
+    padding-top:10px;
+    z-index:2000;
+    list-style-type: none;
+    box-shadow: 0 15px 45px -5px rgba(7, 10, 25, 0.25);
+    -webkit-filter: brightness(1.07);
+    filter: brightness(1.07);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 5px 5px;
+}
+.menu_icon{
+    position:absolute;
+    top:1.5rem;
+    right:2rem;
+}
+.logo_div{
+    margin-left:2rem;
+    margin-top: 2rem;
+}
+.phone_menu{
+    display: none;
+}
+@media (min-width:1024px) and (max-width:1400px){
+    .papch{
+        margin-left: 2rem;
+    }
+    
+}
+@media (max-width:1024px){
+    .nav{
+        display:none;
+    }
+    .phone_menu{
+        display: block !important;
+    }
+    .res_logo{
+        font-size: 2rem;
+        color: rgb(25, 28, 31);
+        font-family: "Basier Circle", sans-serif;
+        font-weight: 600;
+    }
+    
+}
+.help_list{
+    position: absolute;
+    margin-left:-55px;
+    padding-top:10px;
+    z-index:2000;
+    list-style-type: none;
+    box-shadow: 0 15px 45px -5px rgba(7, 10, 25, 0.25);
+    -webkit-filter: brightness(1.07);
+    filter: brightness(1.07);
+    border-radius: 0px 0px 5px 5px;
+}
+.papch_price span:hover{
+    color:rgb(25, 28, 31);
+}
+
+#account,#product,#company,#help{
+    display: none;
+}
+.papch_account:hover #account{
+    display:block;
+}
+.papch_product:hover #product{
+    display:block;
+}
+.papch_company:hover #company{
+    display:block;
+}
+.papch_help:hover #help{
+    display:block;
+}
+.papch_account:hover span{
+    color: rgb(25, 28, 31);
+}
+.papch_product:hover span{
+    color: rgb(25, 28, 31);
+}
+.papch_company:hover span{
+    color: rgb(25, 28, 31);
+}
+.papch_help:hover span{
+    color: rgb(25, 28, 31);
+}
+.papch li{
+    padding:0px 20px 0px 20px;
+    cursor:pointer;
+}
+.papch li a{
+    color: rgb(139, 149, 158);
+}
+.papch li a:hover{
+    color: rgb(25, 28, 31);
+}
+.em{
+   color: #0666eb !important;
+   font-size:0.6rem;
+   vertical-align : super;
+}
+.respon_menu{
+    display:none;
+}
+
+.menu_body{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}

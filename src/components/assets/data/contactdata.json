@@ -1,0 +1,30 @@
+[
+    {
+        "ida": "1",
+        "icon":"images/Group 18.png",
+        "title1":"Phone:",
+        "title2": "Mob:",
+        "content1":"020 8144 8985",
+        "content2": "07910933661, 07415102164",
+        "content3":"mariola.kochanska@gmail.com"        
+    },
+    {
+        "ida": "2",
+        "icon":"images/Group 19.png",
+        "title1":"",
+        "title2": "",
+        "content1":"285 Chigwel Road",
+        "content2": "Woodford Green IG8 8PL",
+        "content3":"Set a route"        
+        },
+    {
+        "ida": "3",
+        "icon":"images/Group 20.png",
+        "title1":"Mon.-Fri:",
+        "title2": "Sat:",
+        "content1":"10:00am - 6:00pm",
+        "content2": "10:00am - 2:00pm",
+        "content3":""        
+        }  
+]
+

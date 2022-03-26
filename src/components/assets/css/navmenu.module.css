@@ -1,0 +1,56 @@
+.closemenu_icon{
+    position:absolute;
+    top:1.5rem;
+    right:2rem;
+    display:none !important;
+}
+
+@media (max-width:1024px){
+    .closemenu_icon{
+        display:block !important;
+    }
+}
+
+.list,.listBUS,.listPRI,.listACC,.listPRO,.listCOM,.listHEL{
+    display: flex;
+    padding: 10px 10px 10px 30px;
+    color: rgb(139, 149, 158);
+}
+.list{
+    display: flex;
+    padding: 10px 10px 10px 30px;
+    color: rgb(25, 28, 31);
+}
+.listBUS:hover,.listPRI:hover,.listACC:hover,.listPRO:hover,.listCOM:hover,.listHEL:hover{
+    color: rgb(25, 28, 31);
+}
+.responmenu{
+    margin-top: 100px;
+}
+.arrow{
+    position: absolute;
+    right: 40px;
+}
+.sub_list_menu{
+    display: none;
+    padding: 0px 10px 10px 30px;
+}
+.sub_list_menu a:hover{
+    color: rgb(25, 28, 31);
+}
+.sub_list_menu a{
+    margin: 10px;
+    color: rgb(139, 149, 158);
+}
+.account:hover .sub_list_menu{
+    display: block;
+}
+.product:hover .sub_list_menu{
+    display: block;
+}
+.company:hover .sub_list_menu{
+    display: block;
+}
+.help:hover .sub_list_menu{
+    display: block;
+}

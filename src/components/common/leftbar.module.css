@@ -1,0 +1,32 @@
+.leftbar_body{    
+    position: fixed;
+    margin-top: 6rem;
+}
+
+.leftbar_body h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.expand_icon{
+    font-size: 1.8rem !important;
+}
+
+.accordion_body{
+    padding-right: 35px !important;
+    margin-top: 1rem;
+    overflow: hidden;
+    transition: height 300ms !important;    
+}
+
+
+.expand_icon_body{
+    padding-top: 0.6rem;
+    display: none;  
+    cursor: pointer;  
+}
+
+.leftbar_title_body{
+    display: flex;
+}
+

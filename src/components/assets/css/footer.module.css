@@ -1,0 +1,172 @@
+.footer{
+    margin-top: 100px;
+    background-color: rgb(243, 244, 245);
+    color: rgb(139, 149, 158);
+    /* text-align: left; */
+    font-family: "Basier Circle", sans-serif;
+    font-weight: 500;
+    padding: 4rem 1rem 4rem 5rem;
+}
+.footer_container{
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer_content1{
+    display: flex;
+    padding-left: 7rem;
+    /* -webkit-box-pack: justify; */
+    /* justify-content: space-between; */
+}
+.footer_content1 ul li{
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+
+.pb_cnt{
+    display: flex;
+    margin-left: -0.7px;
+}
+
+.pb_cnt li{
+    margin-left: 1rem;
+}
+a {
+    color: rgb(139, 149, 158);
+    text-decoration: none;
+    transition: color 0.2s ease 0s;
+    font-family: "Basier Circle", sans-serif;
+    font-weight: 500;
+}
+.f_act,.f_cmp,.apchf{
+    display: flex;
+}
+.apchf{
+    margin-left: 15rem;
+}
+.f_menu_title{
+    font-weight: bold;
+    color: black;
+}
+.footer_content2{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    padding-left: 7.8rem;
+}
+
+.footer_content2>div{
+    text-align: center;
+    margin-right: 2rem;
+}
+.f_country,.f_cnt_sel{
+    display:flex;
+    position: relative;
+    cursor: pointer;
+}
+.footer_content3{
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7.8rem;
+}
+.f_list{
+    max-width: 50rem;
+    display: flex;
+    margin-bottom: 0.6rem;
+    /* justify-content: space-between; */
+}
+.f_list>div{
+    margin-right: 0.5rem;
+}
+.cnt_img:after{ 
+    content: "";
+    position: absolute;
+    background-position: 48px 7152px;
+    width: 48px;
+    /* width: 3rem; */
+    height: 48px;
+    -webkit-transform: scale(.6);
+    transform: scale(.6);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    background-image: url(https://assets.revolut.com/media/roundFlag/sprite.png);
+    /* background-repeat: no-repeat */
+}
+.f_country_search{
+    position: absolute;
+    margin-top: -19.5rem;
+    margin-left: -6.5rem;
+    background-color:#f6f6f8;
+    box-shadow: 0 15px 45px -5px rgba(7, 10, 25, 0.1);
+    -webkit-filter: brightness(1.05);
+    filter: brightness(1.05);
+    font-size: 0.9rem;
+    width: 15rem;
+    border-radius: 0.4rem;
+}
+.f_cnt_list{
+    height: 15rem;
+    overflow-x: hidden;
+    list-style-type: none;
+    margin-left: 0;
+}
+.search_box{
+    display: flex;
+    padding: 20px 25px 3px 25px;
+    background-color:#f6f6f8;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+.f_cnt_list li:hover{
+    background-color: rgb(207, 207, 207);
+}
+.f_cnt_list li{
+    padding: 0 0.5rem 0 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+.navigation:hover{
+    color: #00bbd4 !important;
+    transform: scale(1.05);
+}
+@media screen and (max-width:576px){
+    .footer{
+        padding: 4rem 1rem 4rem 2rem;
+    }
+    .footer_content1{
+        display: flex;
+        flex-direction: column;
+    }
+    .f_act,.apchf,.f_act,.f_cmp,.f_fow{
+        display: flex;
+        flex-direction: column;
+    }
+    .f_list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:1024px){
+    .footer_content1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0rem;
+    }
+    .back_top{
+        display: none !important;
+    }
+    .footer_content2,.footer_content3{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+   .apchf{
+       margin-left: 0rem;
+   }
+}
